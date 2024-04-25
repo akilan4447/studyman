@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:  url('study.jpg');
+    background-size: cover; 
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menubar{
+    width: 1200px;
+    float: left;
+    background-color: transparent;
+    text-align: center;
+    
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color:orange;
+    justify-content: left ;
+    align-items: flex-start;
+}
+.menubar ul li{
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 27px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    transition: 0.3s ease-out;
+}
+ .menubar ul li a:hover{
+    color: white;
+}
+.menubar .fa{
+    margin-right: 8px;
+}
+.search{
+   font-size: medium;
+   color: azure;
+   margin: 10px;
+   padding: 12px;
+   box-shadow: white 0 0 20px;
+}
+.srch{
+    font-family: Book oldman system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 200px ;
+    height: 40px;
+    background: whitesmoke;
+    border: 4px solid ;
+    margin-top: 15px;
+    color: orange;
+    border-right: none;
+    float: left;
+    padding: 1%;
+
+}
+.btn{
+    width:100px;
+    height: 40px;
+    background-color: orange;
+    border: 2px solid ;
+    margin-top: 15px;
+    font-size: 15px;
+    border: orange;
+
+}
+.btn a{
+    text-decoration: none;
+    color:black;
+}
+.btn:focus{
+    outline :none;
+}
+
+.srch:focus{
+    outline: none;
+}
+.content{
+    width:1200px ;
+    height: auto;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding: 5%;
+    float: left;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial ;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    float: none;
+}
+.content .cn{
+    width: 180px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    
+}
+.content .cn:hover{
+   background-color:aliceblue;
+   transition: 0.5s ease;
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+.content .sanju{
+    width: 180px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .sanju a{
+    text-decoration: none;
+    color: black;
+}
+.content .sanju:hover{
+   background-color:aliceblue;
+   transition: 0.5s ease;
+}   
+
+
+    
